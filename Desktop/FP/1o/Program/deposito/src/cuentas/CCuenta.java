@@ -1,11 +1,24 @@
 package cuentas;
-
+/** 
+ * @author 15yag
+ * @version 1.0
+ * Esta clase funciona como un cajero 
+ * */
 public class CCuenta {
 
 
     private String nombre;
+    /**
+     * El nombre del titular de la cuenta
+     */
     private String cuenta;
+    /**
+     * El identificador de la cuenta bancaria
+     */
     private double saldo;
+    /**
+     * El saldo disponible en la cuenta
+     */
     private double tipoInter√s;
 
     public CCuenta()
